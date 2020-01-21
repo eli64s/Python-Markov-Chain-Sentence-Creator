@@ -14,4 +14,4 @@ The example input used in this notebook is included below, with the vocabulary s
 - The papers that had been **excoriating** him were now lauding him
 - She **admonished** me for appearing at breakfast unshaven
 
-This notebook is fairy straightforward and there are many oppurtunities to enhance this model for more accuracy. My end goal is to implement this as a feature in my Flashcard web-application [project]https://github.com/eli64s/Django-Flashcard-Web-App. Feel free to ask questions and suggest areas of improvement!
+This notebook is fairy straightforward and there are many oppurtunities to enhance this model for more accuracy. My end goal is to implement this as a feature in my Flashcard web-application [project](https://github.com/eli64s/Django-Flashcard-Web-App). Feel free to ask questions and suggest areas of improvement!
