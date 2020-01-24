@@ -1,17 +1,10 @@
 # Python-Markov-Chain-Sentence-Creator
-A Jupyter Notebook that generates sentences using a Markov chain stochastic model. The input of this model uses a list vocabulary synonyms and a string of each word used in an example sentence. 
+This notebook generates sentences using a Markov chain stochastic model. The input of this model takes a user-defined vocabulary word and creates a list of sentences composed of synonyms of the input word. The synonyms are extracted using the Natural Language Toolkit module and a vocabulary API is leveraged to collect the sentences.
 
-The example input used in this notebook is included below, with the vocabulary synonyms in bold:
-- He was **upbraided** for his slovenly appearance
-- She **chastised** his colleagues for their laziness
-- His mother came out and **berated** me for raising my voice
-- She had **rebuked** him for drinking too much
-- Mom took Anna away, **scolding** her for her bad behavior
-- He was **reproved** for obscenity
-- His wife **reproached** him with cowardice
-- They **lambasted** the report as a gross distortion of the truth
-- A judge was **censured** in 1983 for a variety of types of injudicious conduct
-- The papers that had been **excoriating** him were now lauding him
-- She **admonished** me for appearing at breakfast unshaven
+The structure of this notebook can be divided into four sections:
+- User defined vocabulary word input, used to generate synonyms via the Natural Language Toolkit module
+- Example sentences of each synonym are extracted from an API 
+- Function created for the Markov chain model 
+- Sentence generation
 
-This notebook is fairy straightforward and there are many oppurtunities to enhance this model's accuracy, specifically feeding the model with more sentence data. My end goal is to implement this as a feature in my [Vocabulary Flashcard Web-Application](https://github.com/eli64s/Django-Flashcard-Web-App). Feel free to ask questions and suggest areas of improvement!
+I hope to improve this model over time by refining the data inputs for the model, and eventually look to include this script as a module in my [Vocabulary Flashcard Web-Application](https://github.com/eli64s/Django-Flashcard-Web-App). Feel free to ask questions and suggest areas of improvement!
