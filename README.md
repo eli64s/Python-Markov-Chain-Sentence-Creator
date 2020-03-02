@@ -1,4 +1,4 @@
-# Python-Markov-Chain-Sentence-Creator
+# Python Markov Model Sentence Generator 
 This notebook generates random sentences using a Markov chain stochastic model. This model takes one user-defined vocabulary word input and then generates its synonyms using the Natural Language Toolkit module. The training data for this model is a collection of example sentences (sentences are composed of the synonyms or user-defined word) obtained from a vocabulary API.
 
 This notebook can be divided into four sections:
